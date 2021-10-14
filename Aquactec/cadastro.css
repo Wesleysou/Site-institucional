@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    height: 655px;
+    display: flex;
+    background-color: brown;
+}
+
+.imagem{
+    height: 100%;
+    width: 50%;
+    background-image: url(/assets/images/bg-jelly-fish-para-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpocadastro{
+    height: 100%;
+    width: 50%;
+    background-color: #e5e5e5;
+    
+}
+
+.cadastro {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 150px 0px 10px 100px;
+}
+
+.dados{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: grey;
+}
+
+.dados::placeholder{
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.tit{
+    color:#32b9cd;
+    
+}
+
+.cadastro button{
+    margin-top: 50px;
+}
+
+.cadastro h5{
+    color: #32b9cd;
+}
+
+.fim{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: #e5e5e5;
+    background-color: #32b9cd;
+}
